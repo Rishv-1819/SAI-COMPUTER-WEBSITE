@@ -1,0 +1,158 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.df-hero {
+  min-height: 500px;
+  background: linear-gradient(
+    135deg,
+    #1500a7,
+    #1d35d4,
+    #1d4ed8
+  );
+  color: white;
+  display: flex;
+  align-items: center;
+  position: relative;
+  overflow: hidden;
+}
+
+.df-hero::before {
+  content: "";
+  position: absolute;
+  right: -100px;
+  top: -50px;
+  width: 700px;
+  height: 700px;
+  background: radial-gradient(
+    circle,
+    rgba(255,255,255,0.2) 2px,
+    transparent 3px
+  );
+  background-size: 15px 15px;
+  transform: rotate(-35deg);
+}
+
+.df-container {
+  max-width: 1200px;
+  margin: auto;
+  padding: 0 40px;
+  position: relative;
+  z-index: 1;
+}
+
+.df-badge {
+  display: inline-block;
+  padding: 10px 18px;
+  background: rgba(0,0,0,0.2);
+  border-radius: 5px;
+  font-size: 14px;
+  letter-spacing: 1px;
+  margin-bottom: 30px;
+}
+
+.df-hero h1 {
+  font-size: 70px;
+  font-weight: 700;
+  margin-bottom: 25px;
+}
+
+.df-hero p {
+  max-width: 850px;
+  font-size: 28px;
+  line-height: 1.6;
+}
+
+/* Overview */
+
+.overview-section {
+  padding: 100px 0;
+  background: #ffffff;
+}
+
+.overview-container {
+  max-width: 1600px;
+  margin: auto;
+  padding: 0px 50px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 70px;
+  align-items: center;
+}
+
+.overview-content h2 {
+  font-size: 60px;
+  color: #08104b;
+  margin-bottom: 30px;
+}
+
+.overview-content p {
+  color: #474444;
+  font-size: 16px;
+  line-height: 1.8;
+  margin-bottom: 20px;
+}
+
+.overview-btn {
+  padding: 14px 30px;
+  border: none;
+  background: #1d35d4;
+  color: white;
+  font-size: 18px;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.overview-btn:hover {
+  background: #08104b;
+}
+
+.overview-image img {
+  width: 100%;
+  border-radius: 8px;
+  display: block;
+}
+
+@media (max-width: 992px) {
+  .overview-container {
+    grid-template-columns: 1fr;
+  }
+
+  .df-hero h1 {
+    font-size: 50px;
+  }
+
+  .df-hero p {
+    font-size: 22px;
+  }
+
+  .overview-content h2 {
+    font-size: 45px;
+  }
+}
+
+@media (max-width: 768px) {
+  .df-hero {
+    min-height: auto;
+    padding: 100px 0;
+  }
+
+  .df-hero h1 {
+    font-size: 38px;
+  }
+
+  .df-hero p {
+    font-size: 18px;
+  }
+
+  .overview-content h2 {
+    font-size: 36px;
+  }
+
+  .overview-content p {
+    font-size: 17px;
+  }
+}

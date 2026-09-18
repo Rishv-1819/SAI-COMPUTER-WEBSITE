@@ -1,0 +1,53 @@
+.header {
+  background: #f2f2f2;
+  padding: 20px 0;
+}
+
+.container {
+  width: 90%;
+  max-width: 1400px;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo-section {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  text-decoration: none;
+}
+
+.logo-img {
+  width: 55px;
+  height: 55px;
+}
+
+.logo-section h2 {
+  color: #aad4d5;
+  font-size: 22px;
+  font-weight: 700;
+}
+
+.nav-menu {
+  display: flex;
+  list-style: none;
+  gap: 50px;
+}
+
+.nav-menu a {
+  text-decoration: none;
+  color: #666;
+  font-size: 18px;
+  transition: 0.3s;
+}
+
+.nav-menu a:hover {
+  color: #4f7cff;
+}
+
+.nav-menu a.active {
+  color: #4f7cff;
+  font-weight: 600;
+}

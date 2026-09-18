@@ -1,0 +1,37 @@
+.offer-status {
+
+    padding: 6px 14px;
+
+    border-radius: 20px;
+
+    font-size: 13px;
+
+    color: white;
+
+    text-transform: capitalize;
+
+}
+
+.draft {
+
+    background: #6b7280;
+
+}
+
+.sent {
+
+    background: #2563eb;
+
+}
+
+.accepted {
+
+    background: #16a34a;
+
+}
+
+.rejected {
+
+    background: #dc2626;
+
+}

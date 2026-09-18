@@ -1,0 +1,35 @@
+.feedback-page {
+
+    padding: 20px;
+
+}
+
+.feedback-page table {
+
+    width: 100%;
+
+    margin-top: 20px;
+
+    border-collapse: collapse;
+
+    background: white;
+
+}
+
+.feedback-page th {
+
+    background: #2563eb;
+
+    color: white;
+
+    padding: 14px;
+
+}
+
+.feedback-page td {
+
+    padding: 12px;
+
+    border: 1px solid #ddd;
+
+}

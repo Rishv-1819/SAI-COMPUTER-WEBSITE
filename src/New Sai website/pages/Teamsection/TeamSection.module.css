@@ -1,0 +1,97 @@
+.teamSection {
+  padding: 80px 20px;
+  background: linear-gradient(
+    135deg,
+    #e49bf7,
+    #def3ed,
+    #7ce8d8
+  );
+}
+
+.container {
+  max-width: 1300px;
+  margin: auto;
+  text-align: center;
+}
+
+.title {
+  font-size: 3rem;
+  font-weight: 700;
+  color: #222;
+  margin-bottom: 15px;
+}
+
+.underline {
+  width: 80px;
+  height: 4px;
+  background: #8ea6ff;
+  margin: 0 auto 25px;
+  border-radius: 5px;
+}
+
+.subtitle {
+  max-width: 700px;
+  margin: 0 auto 60px;
+  color: #666;
+  font-size: 1.1rem;
+  line-height: 1.7;
+}
+
+.teamGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 35px;
+}
+
+.card {
+  transition: 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-8px);
+}
+
+.image {
+  width: 100%;
+  height: 320px;
+  object-fit: cover;
+  display: block;
+}
+
+.name {
+  margin-top: 18px;
+  font-size: 1.8rem;
+  color: #222;
+}
+
+.role {
+  color: #777;
+  margin: 10px 0 15px;
+  font-size: 1.05rem;
+}
+
+.readMore {
+  display: inline-block;
+  text-decoration: none;
+  color: #4a6cf7;
+  font-weight: 600;
+  transition: 0.3s;
+}
+
+.readMore:hover {
+  color: #1f44e0;
+}
+
+@media (max-width: 768px) {
+  .title {
+    font-size: 2.2rem;
+  }
+
+  .subtitle {
+    font-size: 1rem;
+  }
+
+  .image {
+    height: 280px;
+  }
+}

@@ -1,0 +1,21 @@
+.rating-stars {
+
+    display: flex;
+
+    gap: 3px;
+
+    font-size: 20px;
+
+}
+
+.rating-stars span {
+
+    color: #d1d5db;
+
+}
+
+.rating-stars .filled {
+
+    color: #fbbf24;
+
+}

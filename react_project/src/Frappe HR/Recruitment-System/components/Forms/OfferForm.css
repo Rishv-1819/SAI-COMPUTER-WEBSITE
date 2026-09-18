@@ -1,0 +1,39 @@
+.offer-form {
+
+    display: flex;
+
+    flex-direction: column;
+
+    gap: 15px;
+
+    margin-bottom: 20px;
+
+}
+
+.offer-form input,
+.offer-form textarea,
+.offer-form select {
+
+    padding: 12px;
+
+    border: 1px solid #ddd;
+
+    border-radius: 6px;
+
+}
+
+.offer-form button {
+
+    padding: 12px;
+
+    background: #2563eb;
+
+    color: white;
+
+    border: none;
+
+    border-radius: 6px;
+
+    cursor: pointer;
+
+}

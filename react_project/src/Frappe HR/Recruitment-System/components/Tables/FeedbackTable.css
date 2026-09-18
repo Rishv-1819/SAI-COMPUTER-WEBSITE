@@ -1,0 +1,36 @@
+.feedback-table {
+    width: 100%;
+    border-collapse: collapse;
+    background: white;
+    margin-top: 20px;
+}
+
+.feedback-table th {
+    background: #2563eb;
+    color: white;
+    padding: 14px;
+}
+
+.feedback-table td {
+    padding: 12px;
+    border: 1px solid #ddd;
+}
+
+.edit-btn {
+    background: #10b981;
+    color: white;
+    border: none;
+    padding: 8px 15px;
+    margin-right: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.delete-btn {
+    background: #ef4444;
+    color: white;
+    border: none;
+    padding: 8px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+}

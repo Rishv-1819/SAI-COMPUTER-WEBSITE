@@ -1,0 +1,458 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.contact-section {
+  width: 100%;
+  min-height: 100vh;
+  background: #98bfed;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  overflow: hidden;
+}
+
+.contact-tag {
+  background: #ffffff;
+  color: #344563;
+  font-size: 14px;
+  font-weight: 600;
+  padding: 12px 24px;
+  border-radius: 6px;
+  margin-bottom: 30px;
+  letter-spacing: 1px;
+}
+
+.contact-title {
+  font-size: 72px;
+  font-weight: 700;
+  color: #050a3a;
+  margin-bottom: 50px;
+  text-align: center;
+}
+
+.contact-info {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+  margin-bottom: 40px;
+}
+
+.info-box h3 {
+  color: #0f2145;
+  font-size: 20px;
+  font-weight: 500;
+  margin-bottom: 10px;
+}
+
+.info-box p {
+  color: #0f2145;
+  font-size: 18px;
+  line-height: 1.5;
+}
+
+.divider {
+  width: 1px;
+  height: 80px;
+  background: #d6d6d6;
+  transform: rotate(20deg);
+}
+
+.contact-btn {
+  background: #0818d8;
+  color: white;
+  border: none;
+  padding: 18px 40px;
+  font-size: 20px;
+  font-weight: 600;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+.contact-btn:hover {
+  background: #0011b8;
+  transform: translateY(-3px);
+}
+
+/* Bottom Right Pattern */
+.pattern {
+  position: absolute;
+  right: 100px;
+  bottom: 50px;
+  width: 250px;
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 12px;
+  transform: rotate(45deg);
+}
+
+.pattern span {
+  width: 18px;
+  height: 18px;
+  background: #d6d8ff;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .contact-title {
+    font-size: 42px;
+  }
+
+  .contact-info {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .divider {
+    width: 80px;
+    height: 1px;
+    transform: rotate(0deg);
+  }
+
+  .contact-btn {
+    font-size: 18px;
+    padding: 15px 30px;
+  }
+
+  .pattern {
+    right: 20px;
+    width: 150px;
+  }
+}
+
+
+
+
+
+
+/* contact css*/
+
+
+
+
+
+
+
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.enquiry-section {
+  background: #98bfed;
+  padding: 60px 0;
+}
+
+.enquiry-container {
+  width: 88%;
+  margin: auto;
+  display: grid;
+  grid-template-columns: 58% 42%;
+  min-height: 800px;
+}
+
+.enquiry-left {
+  display: flex;
+  flex-direction: column;
+}
+
+.heading-box {
+  background: #021d4a;
+  padding: 60px;
+}
+
+.heading-box h1 {
+  color: #d9dfff;
+  font-size: 64px;
+  line-height: 1.1;
+  font-weight: 700;
+}
+
+.content-box {
+  background: #d9e2f5;
+  padding: 50px 60px;
+  flex: 1;
+}
+
+.content-box p {
+  font-size: 22px;
+  line-height: 1.7;
+  color: #021d4a;
+  margin-bottom: 60px;
+}
+
+.content-box h3 {
+  font-size: 22px;
+  color: #021d4a;
+  margin-bottom: 70px;
+}
+
+.content-box h2 {
+  font-size: 48px;
+  line-height: 1.2;
+  color: #021d4a;
+  font-weight: 700;
+}
+
+.enquiry-right {
+  background: #fff;
+  border-left: 1px solid #e5e5e5;
+}
+
+.form-header {
+  text-align: center;
+  padding: 25px;
+  border-bottom: 1px solid #e5e5e5;
+}
+
+.form-header h2 {
+  color: #021d4a;
+  font-size: 34px;
+  font-weight: 700;
+}
+
+form {
+  padding: 35px 55px;
+}
+
+.row {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+}
+
+.form-group {
+  margin-bottom: 24px;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 10px;
+  color: #021d4a;
+  font-size: 18px;
+}
+
+.form-group input,
+.form-group select,
+.form-group textarea {
+  width: 100%;
+  /*border: 1px solid #d9d9d9;*/
+  padding: 15px;
+  font-size: 16px;
+  border-radius: 4px;
+  outline: none;
+}
+
+.form-group input:focus,
+.form-group select:focus,
+.form-group textarea:focus {
+  border-color: #0027ff;
+}
+
+textarea {
+  resize: none;
+}
+
+.submit-btn {
+  background: #0827ff;
+  color: white;
+  border: none;
+  padding: 15px 40px;
+  font-size: 20px;
+  font-weight: 600;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.submit-btn:hover {
+  background: #001cd8;
+}
+
+@media (max-width: 1200px) {
+  .enquiry-container {
+    grid-template-columns: 1fr;
+  }
+
+  .heading-box h1 {
+    font-size: 48px;
+  }
+
+  .content-box h2 {
+    font-size: 36px;
+  }
+}
+
+@media (max-width: 768px) {
+  .heading-box {
+    padding: 40px 25px;
+  }
+
+  .content-box {
+    padding: 40px 25px;
+  }
+
+  .heading-box h1 {
+    font-size: 36px;
+  }
+
+  .content-box h2 {
+    font-size: 30px;
+  }
+
+  .row {
+    grid-template-columns: 1fr;
+  }
+
+  form {
+    padding: 25px;
+  }
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.location-section {
+ background: #98bfed;
+  min-height: 100vh;
+  position: relative;
+  overflow: hidden;
+  padding: 80px 0;
+}
+
+.container {
+  width: 85%;
+  margin: auto;
+}
+
+.location-title {
+  font-size: 72px;
+  font-weight: 700;
+  color: #050a3a;
+  margin-bottom: 90px;
+}
+
+.location-content {
+  display: flex;
+  align-items: center;
+  gap: 120px;
+}
+
+.location-info {
+  flex: 1;
+  max-width: 400px;
+}
+
+.location-info h2 {
+  font-size: 56px;
+  color: #050a3a;
+  font-weight: 700;
+  line-height: 1.1;
+  margin-bottom: 40px;
+}
+
+.location-info h3 {
+  font-size: 26px;
+  color: #050a3a;
+  margin-bottom: 15px;
+  font-weight: 700;
+}
+
+.location-info p {
+  font-size: 22px;
+  line-height: 1.8;
+  color: #6b6b6b;
+}
+
+.phone {
+  margin-top: 10px;
+  margin-bottom: 40px;
+}
+
+.direction-btn {
+  color: #0d25ff;
+  font-size: 18px;
+  font-weight: 600;
+  text-decoration: none;
+  border-bottom: 2px solid #d7dcff;
+  padding-bottom: 5px;
+}
+
+.location-image {
+  flex: 1;
+}
+
+.location-image img {
+  width: 100%;
+  max-width: 500px;
+  height: 600px;
+  object-fit: cover;
+  display: block;
+}
+
+/* Decorative Diamonds */
+.location-pattern {
+  position: absolute;
+  top: -20px;
+  right: 120px;
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  gap: 18px;
+  transform: rotate(45deg);
+}
+
+.location-pattern span {
+  width: 12px;
+  height: 12px;
+  background: #d7dcff;
+}
+
+/* Responsive */
+@media (max-width: 992px) {
+  .location-content {
+    flex-direction: column;
+    gap: 50px;
+  }
+
+  .location-title {
+    font-size: 50px;
+    text-align: center;
+  }
+
+  .location-info {
+    text-align: center;
+  }
+
+  .location-info h2 {
+    font-size: 42px;
+  }
+
+  .location-image img {
+    height: auto;
+  }
+}
+
+@media (max-width: 576px) {
+  .location-title {
+    font-size: 38px;
+  }
+
+  .location-info h2 {
+    font-size: 34px;
+  }
+
+  .location-info p {
+    font-size: 18px;
+  }
+}

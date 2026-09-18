@@ -1,0 +1,137 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background: #ffffff;
+}
+
+/* Main Container */
+
+.about-container {
+    width: 100%;
+    padding: 80px 20px;
+}
+
+/* Hero Section */
+
+.hero-section {
+    text-align: center;
+    margin-bottom: 80px;
+}
+
+.hero-section h1 {
+    font-size: 70px;
+    font-weight: 700;
+    color: #11184d;
+    line-height: 1.05;
+}
+
+/* Content */
+
+.content-section {
+    max-width: 950px;
+    margin: auto;
+}
+
+.content-section p {
+    font-size: 21px;
+    color: #555;
+    line-height: 1.8;
+    margin-bottom: 35px;
+}
+
+/* Why Us */
+
+.why-us {
+    max-width: 950px;
+    margin: 100px auto;
+}
+
+.badge {
+    display: inline-block;
+    background: #f2f2f2;
+    color: #555;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 14px;
+    letter-spacing: 1px;
+    margin-bottom: 30px;
+}
+
+.why-us h2 {
+    font-size: 30px;
+    color: #4b4b4b;
+    line-height: 1.4;
+    font-weight: 300;
+    margin-bottom: 40px;
+}
+
+.learn-more {
+    text-decoration: none;
+    color: #003cff;
+    font-size: 22px;
+    border-bottom: 2px solid #003cff;
+    padding-bottom: 4px;
+    transition: 0.3s;
+}
+
+.learn-more:hover {
+    color: #11184d;
+    border-color: #11184d;
+}
+
+/* Responsive */
+
+@media (max-width: 992px) {
+
+    .hero-section h1 {
+        font-size: 50px;
+    }
+
+    .why-us h2 {
+        font-size: 36px;
+    }
+
+    .content-section p {
+        font-size: 18px;
+    }
+
+}
+
+@media (max-width: 768px) {
+
+    .hero-section h1 {
+        font-size: 38px;
+    }
+
+    .why-us h2 {
+        font-size: 28px;
+    }
+
+    .content-section p {
+        font-size: 17px;
+    }
+
+    .learn-more {
+        font-size: 18px;
+    }
+
+    .learn-more {
+    text-decoration: none;
+    color: #003cff;
+    font-size: 22px;
+    border-bottom: 2px solid #003cff;
+    padding-bottom: 4px;
+    transition: 0.3s;
+}
+
+.learn-more:hover {
+    color: #11184d;
+    border-color: #11184d;
+}
+
+}

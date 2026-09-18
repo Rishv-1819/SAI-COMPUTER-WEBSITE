@@ -1,0 +1,23 @@
+.resume-btn{
+
+display:inline-block;
+
+padding:10px 20px;
+
+background:#2563eb;
+
+color:white;
+
+border-radius:6px;
+
+text-decoration:none;
+
+margin-top:10px;
+
+}
+
+.resume-btn:hover{
+
+background:#1d4ed8;
+
+}

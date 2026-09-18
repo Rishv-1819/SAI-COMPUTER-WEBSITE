@@ -1,0 +1,47 @@
+.interview-table {
+
+    width: 100%;
+
+    border-collapse: collapse;
+
+    margin-top: 20px;
+
+    background: white;
+
+}
+
+.interview-table th {
+
+    background: #2563eb;
+
+    color: white;
+
+    padding: 14px;
+
+}
+
+.interview-table td {
+
+    padding: 12px;
+
+    border: 1px solid #ddd;
+
+}
+
+.interview-table button {
+
+    padding: 7px 15px;
+
+    margin-right: 10px;
+
+    border: none;
+
+    cursor: pointer;
+
+    border-radius: 5px;
+
+    background: #2563eb;
+
+    color: white;
+
+}

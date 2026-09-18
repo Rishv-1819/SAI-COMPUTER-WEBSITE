@@ -1,0 +1,71 @@
+.overviewSection {
+  padding: 80px 8%;
+  background: #fff;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 60px;
+}
+
+.content {
+  flex: 1;
+}
+
+.title {
+  font-size: 4rem;
+  font-weight: 700;
+  color: #0d123f;
+  line-height: 1.2;
+  margin-bottom: 30px;
+}
+
+.heading {
+  font-size: 2rem;
+  color: #0d123f;
+  margin-bottom: 15px;
+}
+
+.heading::after {
+  content: "";
+  display: block;
+  width: 80px;
+  height: 4px;
+  background: #4a6cf7;
+  margin-top: 8px;
+}
+
+.description {
+  font-size: 1.1rem;
+  line-height: 1.8;
+  color: #555;
+}
+
+.videoContainer {
+  flex: 1;
+}
+
+.video {
+  width: 100%;
+  max-width: 650px;
+  height: 640px;
+  object-fit: cover;
+  border-radius: 8px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+}
+
+@media (max-width: 992px) {
+  .container {
+    flex-direction: column;
+  }
+
+  .title {
+    font-size: 2.8rem;
+  }
+
+  .video {
+    height: auto;
+  }
+}

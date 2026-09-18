@@ -1,0 +1,47 @@
+.interview-form{
+
+display:flex;
+
+flex-direction:column;
+
+gap:15px;
+
+padding:20px;
+
+}
+
+.interview-form input,
+.interview-form select,
+.interview-form textarea{
+
+padding:12px;
+
+border:1px solid #ddd;
+
+border-radius:6px;
+
+font-size:15px;
+
+}
+
+.interview-form button{
+
+padding:12px;
+
+background:#2563eb;
+
+color:white;
+
+border:none;
+
+cursor:pointer;
+
+border-radius:6px;
+
+}
+
+.interview-form button:hover{
+
+background:#1d4ed8;
+
+}

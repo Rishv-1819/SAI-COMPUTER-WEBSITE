@@ -1,0 +1,179 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+.splash{
+
+position:fixed;
+
+top:0;
+left:0;
+
+width:100%;
+height:100vh;
+
+display:flex;
+
+justify-content:center;
+align-items:center;
+
+background:rgba(0,0,0,.55);
+
+backdrop-filter:blur(6px);
+
+z-index:999999;
+
+animation:fade .8s;
+}
+
+/* Loader */
+
+.loader{
+
+position:relative;
+
+width:220px;
+height:220px;
+
+display:flex;
+
+justify-content:center;
+align-items:center;
+
+}
+
+/* Outer Ring */
+
+.ring{
+
+position:absolute;
+
+border-radius:50%;
+
+}
+
+.ring1{
+
+width:220px;
+height:220px;
+
+border:6px solid transparent;
+
+border-top:6px solid cyan;
+border-right:6px solid cyan;
+
+box-shadow:
+0 0 20px cyan,
+0 0 50px cyan;
+
+animation:rotate 2s linear infinite;
+
+}
+
+/* Inner Ring */
+
+.ring2{
+
+width:170px;
+height:170px;
+
+border:6px solid transparent;
+
+border-left:6px solid #00ffea;
+border-bottom:6px solid #00ffea;
+
+box-shadow:
+0 0 15px #00ffea;
+
+animation:rotateReverse 1.4s linear infinite;
+
+}
+
+/* Logo */
+
+.logo{
+
+position:absolute;
+
+font-size:58px;
+
+font-weight:bold;
+
+letter-spacing:8px;
+
+color:white;
+
+text-shadow:
+
+0 0 10px cyan,
+0 0 20px cyan,
+0 0 40px cyan,
+0 0 80px cyan;
+
+animation:pulse 1.2s ease infinite;
+
+}
+
+/* Animations */
+
+@keyframes rotate{
+
+from{
+transform:rotate(0deg);
+}
+
+to{
+transform:rotate(360deg);
+}
+
+}
+
+@keyframes rotateReverse{
+
+from{
+transform:rotate(360deg);
+}
+
+to{
+transform:rotate(0deg);
+}
+
+}
+
+@keyframes pulse{
+
+0%,100%{
+
+transform:scale(1);
+
+opacity:1;
+
+}
+
+50%{
+
+transform:scale(1.15);
+
+opacity:.8;
+
+}
+
+}
+
+@keyframes fade{
+
+from{
+
+opacity:0;
+
+}
+
+to{
+
+opacity:1;
+
+}
+
+}

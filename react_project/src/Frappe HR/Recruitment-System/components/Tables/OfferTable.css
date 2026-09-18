@@ -1,0 +1,47 @@
+.offer-table {
+
+    width: 100%;
+
+    border-collapse: collapse;
+
+    margin-top: 20px;
+
+    background: white;
+
+}
+
+.offer-table th {
+
+    background: #2563eb;
+
+    color: white;
+
+    padding: 15px;
+
+}
+
+.offer-table td {
+
+    padding: 12px;
+
+    border: 1px solid #ddd;
+
+}
+
+.offer-table button {
+
+    padding: 8px 14px;
+
+    margin-right: 8px;
+
+    border: none;
+
+    border-radius: 5px;
+
+    cursor: pointer;
+
+    background: #2563eb;
+
+    color: white;
+
+}

@@ -1,0 +1,39 @@
+.feedback-form {
+
+    display: flex;
+
+    flex-direction: column;
+
+    gap: 15px;
+
+    margin-bottom: 20px;
+
+}
+
+.feedback-form input,
+.feedback-form textarea,
+.feedback-form select {
+
+    padding: 12px;
+
+    border: 1px solid #ccc;
+
+    border-radius: 6px;
+
+}
+
+.feedback-form button {
+
+    padding: 12px;
+
+    background: #2563eb;
+
+    color: white;
+
+    border: none;
+
+    border-radius: 6px;
+
+    cursor: pointer;
+
+}

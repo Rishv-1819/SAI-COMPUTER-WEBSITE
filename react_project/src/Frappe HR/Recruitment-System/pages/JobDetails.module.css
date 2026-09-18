@@ -1,0 +1,237 @@
+.job-details-page{
+
+    width:100%;
+
+    min-height:100vh;
+
+    padding:40px;
+
+    background:linear-gradient(135deg,#4facfe,#00f2fe);
+
+    display:flex;
+
+    justify-content:center;
+
+    align-items:flex-start;
+
+}
+
+.job-details-card{
+
+    width:100%;
+
+    max-width:1200px;
+
+    background:white;
+
+    border-radius:20px;
+
+    padding:40px;
+
+    box-shadow:0 15px 40px rgba(0,0,0,.25);
+
+}
+
+.job-top{
+
+    display:flex;
+
+    justify-content:space-between;
+
+    align-items:flex-start;
+
+    border-bottom:3px solid #e5e7eb;
+
+    padding-bottom:25px;
+
+    margin-bottom:35px;
+
+}
+
+.job-top h1{
+
+    color:#1e3a8a;
+
+    font-size:38px;
+
+    margin-bottom:10px;
+
+}
+
+.company-name{
+
+    color:#555;
+
+    font-size:20px;
+
+}
+
+.top-right{
+
+    display:flex;
+
+    flex-direction:column;
+
+    align-items:flex-end;
+
+    gap:15px;
+
+}
+
+.job-status{
+
+    background:#10b981;
+
+    color:white;
+
+    padding:10px 20px;
+
+    border-radius:30px;
+
+    font-weight:bold;
+
+    text-transform:uppercase;
+
+}
+
+.apply-btn{
+
+    background:#2563eb;
+
+    color:white;
+
+    border:none;
+
+    padding:14px 35px;
+
+    font-size:17px;
+
+    border-radius:8px;
+
+    cursor:pointer;
+
+    transition:.3s;
+
+}
+
+.apply-btn:hover{
+
+    background:#1d4ed8;
+
+    transform:scale(1.05);
+
+}
+
+.job-info{
+
+    display:grid;
+
+    grid-template-columns:repeat(2,1fr);
+
+    gap:25px;
+
+    margin-bottom:35px;
+
+}
+
+.info-box{
+
+    background:linear-gradient(135deg,#fbc2eb,#a6c1ee);
+
+    border-radius:15px;
+
+    padding:25px;
+
+    color:#222;
+
+    box-shadow:0 6px 15px rgba(0,0,0,.12);
+
+}
+
+.info-box h3{
+
+    margin-bottom:12px;
+
+    color:#0f172a;
+
+}
+
+.info-box p{
+
+    font-size:18px;
+
+    font-weight:600;
+
+}
+
+.description-card{
+
+    background:linear-gradient(135deg,#84fab0,#8fd3f4);
+
+    padding:30px;
+
+    border-radius:15px;
+
+    box-shadow:0 6px 15px rgba(0,0,0,.12);
+
+}
+
+.description-card h2{
+
+    color:#1e293b;
+
+    margin-bottom:20px;
+
+}
+
+.description-card p{
+
+    line-height:1.8;
+
+    font-size:17px;
+
+    color:#333;
+
+}
+
+@media(max-width:900px){
+
+.job-top{
+
+flex-direction:column;
+
+gap:25px;
+
+}
+
+.top-right{
+
+align-items:flex-start;
+
+}
+
+.job-info{
+
+grid-template-columns:1fr;
+
+}
+
+.job-top h1{
+
+font-size:30px;
+
+}
+
+.job-details-page{
+
+padding:20px;
+
+}
+
+.job-details-card{
+
+padding:25px;
+
+}
+
+}
